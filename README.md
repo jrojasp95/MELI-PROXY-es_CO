@@ -16,12 +16,12 @@ sysctl -w vm.max_map_count=262144
 ```
 ## Ejecución
 Se debe clonar este proyecto en el servidor donde se desee ejecutar, antes de iniciarlo se pueden parametrizar las variables de entorno del servicio proxy_meli en el archivo docker-compose.yml:
-    - spring.profiles.active: perfil de spring boot activo.
-    - MAX_REQUEST_IP: cantidad máxima de solicitudes por ip.
-    - MAX_REQUEST_URL_PATH: cantidad máxima de solicitudes por path de destino.
-    - MAX_REQUEST_IP_PATH: cantidad máxima de solicitudes por ip y path de destino.
-    - elasticsearch.url: url servidor elasticsearch
-    - elastic.apm.server-url: url servidor apm
+ - spring.profiles.active: perfil de spring boot activo.
+ - MAX_REQUEST_IP: cantidad máxima de solicitudes por ip.
+ - MAX_REQUEST_URL_PATH: cantidad máxima de solicitudes por path de destino.
+ - MAX_REQUEST_IP_PATH: cantidad máxima de solicitudes por ip y path de destino.
+ - elasticsearch.url: url servidor elasticsearch
+ - elastic.apm.server-url: url servidor apm
 
 Luego ejecutar el siguiente comando en la raíz de proyecto:
 ```bash
