@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ejemplo_proxy.EjemploProxyApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.079 s - in com.example.ejemplo_proxy.EjemploProxyApplicationTests
